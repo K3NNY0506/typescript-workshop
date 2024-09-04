@@ -1,8 +1,10 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
+'use strict';
+Object.defineProperty(exports, '__esModule', {value: true});
 exports.sqaureNumber = void 0;
-var sqaureNumber = function (numbers) {
-    var squaredNumbers = numbers.map(function (number) { return number * number; });
-    return squaredNumbers;
+const sqaureNumber = function (numbers) {
+  const squaredNumbers = numbers.map(number => {
+    return number * number;
+  });
+  return squaredNumbers;
 };
 exports.sqaureNumber = sqaureNumber;

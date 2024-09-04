@@ -1,4 +1,21 @@
-import {sqaureNumber} from "./map";
+import {sqaureNumber} from './map';
+
+// src/index.ts
+import {fruits, printFruits} from './printFruits';
+import {array_of_numbers, numberSquarer, new_array} from './numberSquarer';
+import {words, letterCounter, wordsGreaterThanFive} from './letterCounter';
+import {sliceThisWord, newWord} from './sliceThisWord';
+
+console.log(fruits);
+printFruits('example fruit');
+console.log(array_of_numbers);
+console.log(new_array);
+console.log(words);
+console.log(wordsGreaterThanFive);
+console.log(sliceThisWord);
+console.log(newWord);
+console.log(numberSquarer);
+console.log(letterCounter);
 
 console.log('Try npm run lint/fix!');
 
@@ -34,6 +51,6 @@ export function doSomeStuff(
 }
 // TODO: more examples
 
-const numbers = [2,4,6,8];
+const numbers = [2, 4, 6, 8];
 
 console.log(sqaureNumber(numbers));

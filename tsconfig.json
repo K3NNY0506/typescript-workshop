@@ -5,8 +5,6 @@
     "outDir": "build",
     "lib": ["es6", "dom"]
   },
-  "include": [
-    "src/**/*.ts",
-    "test/**/*.ts"
-  ]
+  "include": ["src/**/*.ts"],   
+  "exclude": ["node_modules"]    
 }
